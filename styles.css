@@ -1,0 +1,252 @@
+body {
+    background-color: white;
+}
+
+.tops {
+    font-family: Helvetica;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+.link-primary {
+    font-size: 25px;
+    color: #45371B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linksprojects {
+    padding: 100px;
+}
+
+.sources {
+    padding: 200px;
+    text-align: center;
+    background-color: #45371B;
+    color:white;
+}
+
+.aboutmebackground {
+    background-color: #45371B;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    color:#45371B;
+}
+
+.listcolor{
+    color: #45371B;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    color: #45371B;
+    padding-bottom: 50px;
+    }
+
+.aboutmeheader {    
+    color: white;
+    padding-bottom: 50px;
+}
+
+.pageheader {
+    color: #45371B;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    }
+
+/* Homepage paragraph only */
+.paragraph {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 60px;
+}
+
+.paragraphfont
+    {
+    font-size: 20px;
+    color: #45371B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valley {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 700px;
+    padding-top: 50px;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px 5px #45371B
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.gitlist {
+    padding-top: 100px;
+}
+
+.porfolioheader {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 900px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 900px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;;
+}
+
+.interestspage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests {
+    background-color: #45371B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.interests2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.interestsections {
+    display: flex;
+    align-items: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+
+.leftpicture {
+    max-width: 80%;
+}
+
+.leftdescription {
+    padding-top: 175px;
+    padding-bottom: 175px;
+    padding-left: 100px;
+}
+
+.rightpicture {
+    background-color: #45371B;
+    max-width: 55%;
+    margin-left: 50px;
+}
+
+.rightdescription {
+    background-color: #45371B;
+    color:white;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    padding-right: 100px;
+}
+
+.rightdescription2 {
+    color:white;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    /* padding-left: 100px; */
+    margin-left: 300px;
+    padding-right: 100px;
+}
+
+.travelpictures {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    gap: 250px;
+}
+
+.travel1 {
+    max-width: 350%;
+}
+
+.travel2 {
+    max-width: 354%;
+}
+
+
+/* Style for Hover Attribute */
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+}
+
+.overlay {
+    position:relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 30%;
+    opacity: 0;
+    transition: 3s ease;
+}
+
+.container:hover .overlay {
+    opacity: .75;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
